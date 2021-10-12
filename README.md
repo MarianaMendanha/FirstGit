@@ -26,6 +26,7 @@ cd seuDiretorio
 git init 
 git add
 touch criaFile
+notepad criaFile
 ```
 A partir de um projeto existente em repositório remoto:
 ```
