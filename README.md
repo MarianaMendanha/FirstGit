@@ -21,6 +21,7 @@
 ### Iniciando um repositório
 A partir de um diretório com dados:
 ```
+mkdir seuDiretorio 
 cd seuDiretorio
 git init 
 git add
