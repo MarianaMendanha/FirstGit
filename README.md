@@ -17,17 +17,22 @@
 <img src="https://user-images.githubusercontent.com/72531807/136963239-a0a65dbf-d0a9-456d-a753-45dd8b17627f.png" width="600px;" alt="commandsOrg"/>
 
 ## 🚀 Comandos
+### Mexendo nos folders e files
+```
+mkdir seuDiretorio 
+touch criaFile
+notepad criaFile
+```
 
 ### Iniciando um repositório
 A partir de um diretório com dados:
 ```
-mkdir seuDiretorio 
 cd seuDiretorio
 git init 
 git add
-touch criaFile
-notepad criaFile
 ```
+-> Devemos criar o repositório np gitHub e copiar o comando do git remote e git push que aparece no setup do repositório
+
 A partir de um projeto existente em repositório remoto:
 ```
 git clone git://host.org/projrto.git
@@ -91,6 +96,12 @@ Empacotar mudanças em commit e adicionar ao log:
 ```
 git commit
 git commit -m "mensagem do commit"
+```
+
+### Confirmando mudanças no repositório remoto
+Empacotar mudanças e adicionar ao gitHub:
+```
+git push -u origin master
 ```
 
 ### Gerenciamento de branches
