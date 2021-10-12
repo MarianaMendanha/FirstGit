@@ -25,6 +25,7 @@ mkdir seuDiretorio
 cd seuDiretorio
 git init 
 git add
+touch criaFile
 ```
 A partir de um projeto existente em repositório remoto:
 ```
